@@ -5,9 +5,7 @@ import com.kunal.dao.PasswordChangeRequestDao;
 import com.kunal.dao.PasswordChangeRequestDaoImple;
 import org.springframework.stereotype.Service;
 
-/**
- * Created by kunal on 21-Jul-17.
- */
+
 @Service
 public class PasswordChangeRequestServicesImpl implements PasswordChangeRequestServices {
     @Override

@@ -30,13 +30,6 @@ public class User {
     @Temporal(TemporalType.DATE)
     private Date lastUpdated;
 
-/*    @OneToMany
-    List<Topic> topicList= new ArrayList<>();
-    @OneToMany
-    private List<Subscription> subscriptionList = new ArrayList<>();
-    @OneToMany
-    private List<Resources> resourcesList = new ArrayList<>();
-*/
     private transient String confirmPassword;
 
 
@@ -51,30 +44,7 @@ public class User {
         this.confirmPassword = confirmPassword;
     }
 
-   /* public List<Topic> getTopicList() {
-        return topicList;
-    }
 
-    public void setTopicList(List<Topic> topicList) {
-        this.topicList = topicList;
-    }
-
-    public List<Subscription> getSubscriptionList() {
-        return subscriptionList;
-    }
-
-    public void setSubscriptionList(List<Subscription> subscriptionList) {
-        this.subscriptionList = subscriptionList;
-    }
-
-    public List<Resources> getResourcesList() {
-        return resourcesList;
-    }
-
-    public void setResourcesList(List<Resources> resourcesList) {
-        this.resourcesList = resourcesList;
-    }
-*/
     public Integer getUserId() {
         return UserId;
     }

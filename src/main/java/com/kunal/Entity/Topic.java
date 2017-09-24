@@ -24,7 +24,6 @@ public class Topic {
     @Temporal(TemporalType.DATE)
     private Date dateCreated;
 
-//    @Column(nullable = false)
     @Temporal(TemporalType.DATE)
     private Date lastUpdated;
 
